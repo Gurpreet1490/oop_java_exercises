@@ -12,7 +12,7 @@ public class CatTest {
         assertFalse("Cat should be awake by default", domesticCat.isAsleep());
     }
 
-    @Test
+   @Test
     public void checkCatCanGoToSleep() {
         Cat domesticCat = new DomesticCat();
         domesticCat.goToSleep();
@@ -44,7 +44,6 @@ public class CatTest {
         Cat lionCat = new LionCat();
         assertEquals(1100, lionCat.getAverageHeight());
     }
-
 
     @Test
     public void feedTheLion() {
